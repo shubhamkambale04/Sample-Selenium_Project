@@ -14,7 +14,7 @@ public class LoginPage {
 		this.driver=driver;
 	}
 	
-	// 2 locators
+	// 3 locators
 	By username=By.xpath("//input[@placeholder='Username']");
 	By password=By.xpath("//input[@placeholder='Password']");
 	By button=By.xpath("//button[normalize-space()='Login']");
