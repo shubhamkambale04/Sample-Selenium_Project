@@ -4,13 +4,11 @@ public class MainClass {
 
 public static void main(String[] args) {
 	
-	/*
 	Adder ad=new Adder();
 	ad.sum();
 	ad.sum(20, 30);
 	ad.sum(30, 40.5);
 	ad.sum(30, 50.5);
-	*/	
 
 	// 1
 	ConstructorOverloading co=new ConstructorOverloading();

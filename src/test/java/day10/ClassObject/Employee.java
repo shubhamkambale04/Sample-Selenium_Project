@@ -9,15 +9,11 @@ public class Employee {
 	int emp_sal;
 	
 	// Methods
-	
 	void display()
 	{
-		
 		System.out.println(emp_id);
 		System.out.println(emp_name);
 		System.out.println(emp_desg);
 		System.out.println(emp_sal);
 	}
-	
-
 }

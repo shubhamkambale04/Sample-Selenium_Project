@@ -29,5 +29,4 @@ public class Account {
 	public double getAmount() {
 		return amount;
 	}
-
 }

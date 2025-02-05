@@ -19,7 +19,7 @@ public class Student {
 
 	}
 
-	Student(int id, String name, char gr) {
+	public Student(int id, String name, char gr) {
 		this.sid = id;
 		this.sname = name;
 		this.grade = gr;

@@ -17,7 +17,7 @@ public class MainClass {
 
 		// Setting account balance/amount
 		acc.setAmount(6684.5);
-		double abal = acc.getAmount(); // Correct method call
-		System.out.println("Account Balance: " + abal);
+		double avlbal = acc.getAmount(); // Correct method call
+		System.out.println("Account Balance: " + avlbal);
 	}
 }

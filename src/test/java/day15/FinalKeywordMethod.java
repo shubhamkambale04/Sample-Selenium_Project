@@ -1,8 +1,8 @@
 package day15;
 
-final class Test1
+class Test1
 {
-	final void m()
+	void m()
 	{
 		System.out.println("method from test1");
 	}
