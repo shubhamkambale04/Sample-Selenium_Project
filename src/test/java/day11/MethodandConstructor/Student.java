@@ -7,8 +7,8 @@ public class Student {
 	String sname;
 	char grade;
 
-	void printData() {
-		System.out.println(sid + " " + sname + " " + grade);
+	// Default constructor (needed to allow new Student();)
+	public Student() {
 	}
 
 	// local or method specific variables
@@ -25,4 +25,7 @@ public class Student {
 		this.grade = gr;
 	}
 
+	void printData() {
+		System.out.println(sid + " " + sname + " " + grade);
+	}
 }

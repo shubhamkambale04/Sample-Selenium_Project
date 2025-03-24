@@ -3,7 +3,5 @@ package day16.DataAbstractionAndInterface;
 public interface I2 {
 	
 	int y=200;
-	
-	void m2();
-
+	public void m2();
 }

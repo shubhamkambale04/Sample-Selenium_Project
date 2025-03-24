@@ -10,5 +10,11 @@ public class Test {
 		int l=s.length();
 		System.out.println(l);
 	}
+	
+	public static void main(String[] args) {
+		
+		System.out.println(s);
+		length();
+	}
 
 }

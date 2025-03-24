@@ -4,11 +4,13 @@ public class ThisKeyword {
 
 	int x, y;
 
+	// Prameterised constructor
 	public ThisKeyword(int x, int y) {
 		this.x = x;
 		this.y = y;
 	}
 
+	// default constructor
 	public ThisKeyword() {
 
 	}

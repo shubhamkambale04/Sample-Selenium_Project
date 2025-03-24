@@ -18,9 +18,10 @@ public class Assignment {
 	public static Select select;
 	public static WebElement dropdown;
 	public static WebElement text;
+	public static WebDriver driver;
 
 	public static void main(String[] args) throws InterruptedException {
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		driver.manage().window().maximize();
@@ -107,7 +108,7 @@ public class Assignment {
 			System.out.println(actualTitle);
 		}
 		
-		// Close the browser
+		// quit the browser
 		driver.quit();
 	}
 }

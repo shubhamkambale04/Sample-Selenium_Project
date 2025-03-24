@@ -35,7 +35,7 @@ public class Assignment {
 		
 		
 		driver.switchTo().defaultContent();
-
+		driver.quit();
 	}
 
 }

@@ -6,27 +6,28 @@ public class Account {
 	private String accname;
 	private double amount;
 
-	public void setAccno(int no) {
-		this.accno = no;
-	}
-
 	public int getAccno() {
 		return accno;
 	}
 
-	public void setAccname(String name) {
-		this.accname = name;
+	public void setAccno(int accno) {
+		this.accno = accno;
 	}
 
 	public String getAccname() {
 		return accname;
 	}
 
-	public void setAmount(double amt) {
-		this.amount = amt;
+	public void setAccname(String accname) {
+		this.accname = accname;
 	}
 
 	public double getAmount() {
 		return amount;
 	}
+
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+
 }

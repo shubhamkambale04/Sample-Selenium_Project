@@ -47,6 +47,7 @@ public class HashMapDemo {
 		Iterator<Entry<Object, Object>> it = mymap.entrySet().iterator();
 
 		while (it.hasNext()) {
+			
 			Entry<Object, Object> entry = it.next();
 			System.out.println(entry.getKey() + " " + entry.getValue());
 		}

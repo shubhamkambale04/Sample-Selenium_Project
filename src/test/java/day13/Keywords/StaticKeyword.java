@@ -23,20 +23,20 @@ public class StaticKeyword {
 		m1();
 		m2();
 	}
-	
-	/*
+
 	public static void main(String[] args) {
 		
-		m1();   // static method so we can access directly 
+		// static method so we can access directly
+		m1();    
 		System.out.println(a);
 		
+		// Non static methods
 		StaticKeyword sk=new StaticKeyword();
 		sk.m2();
 		System.out.println(sk.b);
-		
 		sk.m();
 	}
-	*/
+	
 	
 
 }

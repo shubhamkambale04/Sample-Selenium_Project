@@ -1,4 +1,4 @@
-package day15.FinalSuperKeywordAndMethodOverriding;
+package day14.Inheritance;
 
 class Bank {
 	double roi() {

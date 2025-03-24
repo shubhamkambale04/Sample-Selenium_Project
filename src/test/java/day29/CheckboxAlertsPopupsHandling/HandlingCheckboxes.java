@@ -40,9 +40,9 @@ public class HandlingCheckboxes {
 		 * checkboxesToSelect = Arrays.asList("Monday", "Wednesday", "Friday");
 		 * 
 		 * for (WebElement checkbox : checkboxes) { // Get the associated label
-		 * (assuming the label follows the checkbox) WebElement label =
-		 * checkbox.findElement(By.xpath("following-sibling::label")); String title =
-		 * label.getText().trim();
+		 * (assuming the label follows the checkbox) 
+		 * WebElement label = checkbox.findElement(By.xpath("following-sibling::label")); 
+		 * String title = label.getText().trim();
 		 * 
 		 * // If the checkbox label is in the list, select it if
 		 * (checkboxesToSelect.contains(title)) { if (!checkbox.isSelected()) {

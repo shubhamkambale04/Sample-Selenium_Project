@@ -17,7 +17,7 @@ public class WindowSwitchCommands {
 		driver.manage().window().maximize();
 
 		// click on the element that open a new window called child window
-		driver.findElement(By.xpath("//input[@name='dataase']")).click();
+		driver.findElement(By.xpath("//input[@name='database']")).click();
 
 		Set<String> winIDs = driver.getWindowHandles();
 
@@ -39,6 +39,7 @@ public class WindowSwitchCommands {
 
 		for (String winId : winIDs) {
 			String title = driver.switchTo().window(winId).getTitle();
+			System.out.println(title);
 			if (title.equals("parent/child window title")) {
 				System.out.println(driver.getCurrentUrl());
 			}

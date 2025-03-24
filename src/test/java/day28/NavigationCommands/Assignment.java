@@ -11,9 +11,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Assignment {
 
+	public static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException {
 
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 
 		driver.get("https://testautomationpractice.blogspot.com");
@@ -53,8 +54,7 @@ public class Assignment {
 		// Print window titles before closing
 		System.out.println("Titles before closing:");
 		for (String winId : winIds) {
-			driver.switchTo().window(winId);
-			String title = driver.getTitle();
+			String title=driver.switchTo().window(winId).getTitle();
 			System.out.println(title);
 			if (title.equals(targetWindow1) || title.equals(targetWindow2)) {
 				driver.close();
@@ -74,5 +74,6 @@ public class Assignment {
 		// Switch back to the main window
 		driver.switchTo().window(mainWindow);
 		Thread.sleep(1000); // Wait before clicking next link
+		driver.quit();
 	}
 }

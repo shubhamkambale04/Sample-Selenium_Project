@@ -8,10 +8,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class HandlingAlerts {
-
+	public static WebDriver driver;
 	public static Alert myalert ;
 	public static void main(String[] args) throws InterruptedException {
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
@@ -19,7 +19,7 @@ public class HandlingAlerts {
 		
 		// 1) simple alert
 		driver.findElement(By.xpath("//button[@id='alertBtn']")).click();
-		 myalert=driver.switchTo().alert();
+		myalert=driver.switchTo().alert();
 		Thread.sleep(2000);
 		String txt=myalert.getText();
 		System.out.println(txt);
@@ -41,7 +41,6 @@ public class HandlingAlerts {
 		myalert.sendKeys("Harry Potter");
 		myalert.accept();
 		//myalert.dismiss();
-		
 		
 		Thread.sleep(2000);
 		driver.quit();

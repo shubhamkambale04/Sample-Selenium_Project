@@ -66,7 +66,7 @@ public class ArrayListDemo {
 		// clear all elements into the array list
 		//mylist.clear();
 		//System.out.println(mylist);
-		System.out.println(mylist.isEmpty());
+		//System.out.println(mylist.isEmpty());
 		
 		// remove multiple elements into array list
 		ArrayList <Object> mylist2=new ArrayList<>();

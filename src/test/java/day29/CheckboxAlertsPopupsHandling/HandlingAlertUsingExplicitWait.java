@@ -11,8 +11,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HandlingAlertUsingExplicitWait {
 
+	public static WebDriver driver;
+	
 	public static void main(String[] args) {
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		WebDriverWait mywait=new WebDriverWait(driver,Duration.ofSeconds(10));
 

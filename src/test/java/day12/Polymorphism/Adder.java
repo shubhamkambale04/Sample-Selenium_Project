@@ -9,17 +9,17 @@ public class Adder {
 		System.out.println(a+b);
 	}
 
-	void sum(int x, int y)                     // 2
+	void sum(int x, int y)                     // 2 Change the Number of Parameters
 	{
 		System.out.println(x+y);
 	}
 	
-	void sum(int x, double y)                  // 3
+	void sum(int x, double y)                  // 3 Change the Data Type of Parameters
 	{
 		System.out.println(x+y);
 	}
 	
-	void sum(double y, int x)                  // 4
+	void sum(double y, int x)                  // 4 Change the Order of Parameters
 	{
 		System.out.println(x+b);
 	}

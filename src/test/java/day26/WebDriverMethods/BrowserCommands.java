@@ -16,9 +16,8 @@ public class BrowserCommands {
 		Thread.sleep(5000);
 		driver.findElement(By.linkText("")).click();
 
-		// Close
+		// Close it closes the current opened window only
 		driver.close();
-		// it closes the current opened window only
 
 		// quit it closes all the windows
 		driver.quit();
